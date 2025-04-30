@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at center, #1b1f3a, #0d121d);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      padding-top: 40px;
+    }
+
+    .logo {
+      margin: 30px 0;
+    }
+
+    .logo i {
+      background-image: url("https://static.cdninstagram.com/rsrc.php/v4/yB/r/E7m8ZCMOFDS.png");
+      background-position: 0px 0px;
+      background-size: auto;
+      width: 175px;
+      height: 51px;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+
+    .form-container {
+      width: 90%;
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    input {
+      padding: 12px;
+      background-color: #1e2732;
+      border: 1px solid #333;
+      border-radius: 6px;
+      color: white;
+      font-size: 14px;
+    }
+
+    .login-button {
+      background-color: #0095f6;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .forgot-password {
+      text-align: center;
+      font-size: 14px;
+      color: #c0c0c0;
+      margin-top: 10px;
+    }
+
+    .create-account {
+      margin-top: 30px;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 6px;
+      color: #0095f6;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .meta-logo {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <i data-visualcompletion="css-img" aria-label="Instagram" class="logo" role="img"></i>
+  </div>
+
+  <div class="form-container">
+    <input type="text" placeholder="Nome de usuário, email ou celular">
+    <input type="password" placeholder="Senha">
+    <button class="login-button">Entrar</button>
+    <div class="forgot-password">Esqueceu a senha?</div>
+  </div>
+
+  <div class="create-account">Criar nova conta</div>
+  <div class="meta-logo">Meta</div>
+
+</body>
+</html>
